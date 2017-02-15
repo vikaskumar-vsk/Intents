@@ -11,16 +11,6 @@
     tools:context="com.vikaskumar.vsk.intents.Apples"
     android:background="#0BD318">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Apples"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="99dp"
-        android:id="@+id/applesText"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
-
     <Button
         android:text="go to oranges"
         android:layout_width="wrap_content"
@@ -29,5 +19,26 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/applesButton"
         android:onClick="onClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apples"
+        android:layout_marginTop="38dp"
+        android:id="@+id/applesText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_above="@+id/applesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:id="@+id/applesInput"
+        android:textAlignment="textStart" />
 
 </RelativeLayout>
