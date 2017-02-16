@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Oranges"></activity>
+        <activity android:name=".Oranges">
+        </activity>
+        <service android:name=".BuckysIntentService"/>
     </application>
 
 </manifest>
